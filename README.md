@@ -39,6 +39,7 @@ python -m spacy download en
 ### Potential Enhancements & Next Steps (weren't addressed due to time constraints)
 - Data Augmentation: Try to balance test_train set Smote or gathering more samples from external sources.
 - Try Word2Vec instead of TF-IDF on Natural Language Processing.
+- Check features importance
 - Add other variables and more FE, RELEASE_MN, RELEASE_YR.
 - Categorize BUDGET_AMT, NO_OF_VOTES, into classes (like: low, medium, high).
 - Apply outliers and other parameters tunning, like strategies OneHotEncoder, MinMaxScaler.
@@ -47,6 +48,7 @@ python -m spacy download en
 - Dimensionality reduction (PCA, etc.)
 - Reduce test size on the current dataset (actual is 20%)
 - Test other NN architectures (CNN, RNN, LSTM, GRU, etc.)
+
 
 ### Potential Enhancements (Infrastructure)
 - Add docstrings, git pre-commit syntax reviewer, pep8 style guide
